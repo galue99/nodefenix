@@ -15,6 +15,11 @@
 			];
 
 
+			this.showDate = function () {
+      			date = 0;
+      			date = Date.now();
+      		return date;
+    		};
 
 		});
 })();
